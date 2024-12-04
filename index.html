@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuance Dictionary
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div id="search-section">
+            <input type="text" id="searchInput" placeholder="Search using English, kana, hiragana or romaji">
+            <button id="clearBtn" onclick="clearSearch()"><i class="fas fa-times"></i></button>
+            <button id="filterBtn" onclick="filterResults()">
+                <i class="fas fa-filter"></i>
+              </button>
+            <button id="searchBtn" onclick="searchWord()">
+                <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <div id="filterModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeFilter">&times;</span>
+                <h2>Filter by Tone</h2>
+                <form id="filterForm" class="filter-form">
+                    <div class="filter-grid">
+                        <label><input type="checkbox" value="neutral" /> Neutral</label>
+                        <label><input type="checkbox" value="casual" /> Casual</label>
+                        <label><input type="checkbox" value="formal" /> Formal</label>
+                        <label><input type="checkbox" value="masculine" /> Masculine</label>
+                        <label><input type="checkbox" value="feminine" /> Feminine</label>
+                        <label><input type="checkbox" value="slang" /> Slang</label>
+                        <label><input type="checkbox" value="literary" /> Literary</label>
+                        <label><input type="checkbox" value="poetic" /> Poetic</label>
+                        <label><input type="checkbox" value="positive" /> Positive</label>
+                        <label><input type="checkbox" value="negative" /> Negative</label>
+                    </div>
+                    <button type="button" id="applyFilters">Apply Filters</button>
+                    <button type="button" id="modalClearFiltersBtn" class="modal-clear-filters-btn">Clear Filters</button>
+                </form>
+                
+                
+            </div>
+        </div>
+
+        <div id="filtersDisplay" class="filters-display" style="display: none;">
+            <span id="activeFilters"></span>
+            <button id="clearFiltersBtn" class="clear-filters-btn">Clear Filters</button>
+        </div>
+
+        
+        
+          
+    </main>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+</body>
+</html>

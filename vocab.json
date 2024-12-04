@@ -1,0 +1,124 @@
+[
+    {
+        "englishWords": [
+            ["pretty", "lovely", "beautiful"],
+            ["clean", "clear", "pure", "tidy", "neat"]
+        ],
+        "japaneseWord": {
+    "kanji": ["綺", "麗"],
+    "kana": ["き", "れい"],
+    "romaji": ["ki", "rei"],
+    "fullKana": "きれい"
+},
+        "tone": ["neutral", "positive"],
+        "nuance": "Gives a general sense of something or someone that is clean, pretty, or free of impurities. It’s common and casual, more straightforward rather than deep and poetic.",
+        "examples": [
+            {
+                "japanese": "きれいな花ですね。",
+                "english": "That's a beautiful flower, isn't it?"
+            },
+            {
+                "japanese": "部屋がきれいになった。",
+                "english": "The room is now clean."
+            },
+            {
+                "japanese": "きれいな心。",
+                "english": "A pure or beautiful heart (moral sense)."
+            },
+            {
+                "japanese": "湖の水はきれいです。",
+                "english": "The water in the lake is clear."
+            }
+        ],
+        "comparableWords": [
+            {
+                "kanji": "美しい",
+                "englishWords": ["beautiful", "pretty", "lovely", "sweet", "pure"],
+                "tone": ["poetic", "formal"]
+            }
+        ]
+    },
+
+    {
+        "englishWords": [
+            ["beautiful", "lovely", "pretty", "gorgeous"],
+            ["elegant", "sweet", "graceful", "pure"]
+        ],
+        "japaneseWord": {
+    "kanji": ["美しい"],
+    "kana": ["うつく"],
+    "romaji": ["utsuku"],
+    "fullKana": "うつくしい"
+},
+        "tone": ["poetic", "literary", "formal", "positive"],
+        "nuance": "Conveys the sense that something or someone is exceptionally beautiful in a way that deeply moves the speaker in a positive way. Often used to describe nature, abstract concepts, and even people, it carries a poetic or respectful undertone.",
+        "examples": [
+            {
+                "japanese": "美しい花が咲いている。",
+                "english": "Beautiful flowers are blooming."
+            },
+            {
+                "japanese": "彼女は美しい女性です。",
+                "english": "She is a beautiful woman."
+            },
+            {
+                "japanese": "美しい音楽が響いている。",
+                "english": "Beautiful music is playing."
+            },
+            {
+                "japanese": "美しい春の景色は心を癒す。",
+                "english": "The beautiful spring scenery soothes the heart."
+            }
+        ],
+        "comparableWords": [
+            {
+                "kanji": "綺麗",
+                "englishWords": ["pretty", "lovely", "beautiful"],
+                "tone": ["neutral", "positive"]
+            }
+        ]
+    },
+
+    {
+        "englishWords": [
+            ["splendid", "magnificent", "excellent", "fine", "beautiful", "admirable"],
+            ["utter", "total", "complete"],
+            ["spectacle", "something worth seeing"]
+        ],
+        "japaneseWord": {
+    "kanji": ["見事"],
+    "kana": ["み", "ごと"],
+    "romaji": ["migoto"],
+    "fullKana": "みごと"
+},
+        "tone": ["formal", "positive"],
+        "nuance": "Used to praise something that is excellent, beautiful, or skillfully done, often with a sense of admiration and respect. It can also be used to emphasize the extent of something, either in a neutral or slightly ironic tone depending on the context.",
+        "examples": [
+            {
+                "japanese": "彼の演技は見事だった。",
+                "english": "His performance was excellent."
+            },
+            {
+                "japanese": "見事に試験に落ちた。",
+                "english": "I completely failed the exam."
+            },
+            {
+                "japanese": "計画が見事に成功した。",
+                "english": "The plan succeeded perfectly."
+            },
+            {
+                "japanese": "見事な景色に感動しました。",
+                "english": "I was moved by the breathtaking scenery."
+            }
+        ],
+        "comparableWords": [
+            {
+                "kanji": "素晴らしい"
+            },
+
+            {
+                "kanji": "すごい"
+            }
+        ]
+    }
+]
