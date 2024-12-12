@@ -1,10 +1,14 @@
 /* General body styling */
 body {
     background-color: rgb(23, 23, 23);
-    padding: 10vh 25vw;
+    padding: 2vh 25vw;
     font-family: 'Yu Gothic UI', 'Noto Sans JP', Arial, sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.sitename {
+    color: rgb(186, 186, 186);
 }
 
 /* Search Section */
