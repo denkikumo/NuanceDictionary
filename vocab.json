@@ -92,7 +92,7 @@
     "fullKana": "みごと"
 },
         "tone": ["formal", "positive"],
-        "nuance": "Used to praise something that is excellent, beautiful, or skillfully done, often with a sense of admiration and respect. It can also be used to emphasize the extent of something, either in a neutral or slightly ironic tone depending on the context.",
+        "nuance": "Used to praise something that is excellent, beautiful, or skillfully done, often with a sense of admiration and respect. It can also be used to emphasize the extent of something, either in a neutral or slightly ironic tone depending on the context. If the overall meaning of the sentence leans negative, the tone is usually ironic.",
         "examples": [
             {
                 "japanese": "彼の演技は見事だった。",
@@ -118,6 +118,56 @@
 
             {
                 "kanji": "すごい"
+            }
+        ]
+    },
+
+    {
+        "englishWords": [
+            ["road", "path", "street"],
+            ["way", "method", "journey"]
+        ],
+        "japaneseWord": {
+    "kanji": ["道"],
+    "kana": ["みち"],
+    "romaji": ["michi"],
+    "fullKana": "みち"
+},
+        "tone": ["neutral"],
+        "nuance": "Often used both literally and figuratively, always retaining the functional sense of a road or pathway. In its figurative sense, the road symbolizes the direction to follow in a practice, journey, art form, or skill. It can also represent morality or spirituality, where staying on the path involves adhering to principles, rules, or a disciplined way of life.",
+        "examples": [
+            {
+                "japanese": "この道をまっすぐ行くと、駅があります。",
+                "english": "There's a station if you go straight down this road."
+            },
+            {
+                "japanese": "自分の道を信じて進みます。",
+                "english": "I'll trust my own path and move forward."
+            },
+            {
+                "japanese": "剣道は剣の道を極める武道です。",
+                "english": "Kendo is a martial art that masters the way of the sword."
+            },
+            {
+                "japanese": "道を踏み外す",
+                "english": "To stray from the path (morally)."
+            }
+        ],
+        "comparableWords": [
+            {
+                "kanji": "道路"
+            },
+
+            {
+                "kanji": "通り"
+            },
+
+            {
+                "kanji": "街路"
+            },
+
+            {
+                "kanji": "街道"
             }
         ]
     }
