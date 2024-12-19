@@ -170,5 +170,54 @@
                 "kanji": "街道"
             }
         ]
+    },
+
+    {
+        "englishWords": [
+            ["road", "highway"]
+        ],
+        "japaneseWord": {
+    "kanji": ["道路"],
+    "kana": ["どう", "ろ"],
+    "romaji": ["dou ro"],
+    "fullKana": "どうろ"
+},
+        "tone": ["neutral, formal"],
+        "nuance": "Usually used to describe the condition of a road or highway, such as traffic, construction, road type, or signs and rules. Commonly found in technical contexts, but not overly formal.",
+        "examples": [
+            {
+                "japanese": "この道路はいつも渋滞しています。",
+                "english": "This road is always congested."
+            },
+            {
+                "japanese": "道路工事のせいで通行止めです。",
+                "english": "Due to road construction, it is closed to traffic."
+            },
+            {
+                "japanese": "道路標識をちゃんと確認してください。",
+                "english": "Please properly check the road signs."
+            },
+            {
+                "japanese": "国道16号線はかなり広い道路です。",
+                "english": "National Route 16 is a fairly wide road."
+            }
+        ],
+        "comparableWords": [
+            {
+                "kanji": "道"
+            },
+            
+            {
+                "kanji": "通り"
+            },
+
+            {
+                "kanji": "街路"
+            },
+
+            {
+                "kanji": "街道"
+            }
+        ]
     }
 ]
